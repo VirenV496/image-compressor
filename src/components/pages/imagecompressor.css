@@ -1,0 +1,98 @@
+.drop{
+    margin: 1rem 0;
+    color: var(--orange);
+    
+}
+
+.card-img-top {
+    max-width: 30% !important;
+    max-height: 20% !important;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.in-button{
+    line-height: 1.5715;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+    cursor: pointer;
+    -webkit-transition: all .3s cubic-bezier(.645,.045,.355,1);
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 4px 15px;
+    font-size: 10px;
+    border-radius: 2px;
+    color: rgba(0,0,0,.85);
+    background: #fff;
+    border: 1px solid #d9d9d9;
+}
+
+.col-xl-4 {
+  
+    max-width: 20.333333% !important
+}
+
+.row{
+    justify-content: center !important;
+}
+
+
+.w-75 {
+    width: 90%!important;
+}
+
+.mt-5, .my-5 {
+    border: #f4ff00 dotted;
+
+}
+
+
+.upload-box {
+    
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    -webkit-flex-direction: column;
+    /* flex-direction: column; */
+    -webkit-align-items: center;
+    align-items: center;
+    height: 300px;
+    outline: none;
+    -webkit-transition: all .5s var(--easing);
+    transition: all .5s var(--easing);
+    background-image: -webkit-linear-gradient(left,#f95540 50%,transparent 0),-webkit-linear-gradient(left,#f95540 50%,transparent 0),-webkit-linear-gradient(top,#f95540 50%,transparent 0),-webkit-linear-gradient(top,#f95540 50%,transparent 0);
+    background-image: linear-gradient(
+90deg
+,#f95540 50%,transparent 0),linear-gradient(
+90deg
+,#f95540 50%,transparent 0),linear-gradient(
+180deg
+,#f95540 50%,transparent 0),linear-gradient(
+180deg
+,#f95540 50%,transparent 0);
+    background-color: hsla(0,0%,100%,.8);
+    background-position: 0 0,0 100%,0 0,100% 0;
+    background-repeat: repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: 15px 3px,15px 3px,3px 15px,3px 15px;
+    opacity: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 0 rgb(0 0 0 / 5%);
+    -webkit-perspective: 600px;
+    perspective: 600px;
+    overflow: hidden;
+
+}
+
+
